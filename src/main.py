@@ -52,6 +52,8 @@ class Torre:
         #posição mão
         dm = html.DIV(Id="a_mao", style="position:absolute; left:155px; top:10px;")
 
+#criar classe mão para verificar se está cheia
+
         #palitos
         pa = html.IMG(src=palito, width="40px").bind("click", move3)
         dpa = html.DIV(src=pa, style="position:absolute; left:105px; top:100px;")
