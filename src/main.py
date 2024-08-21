@@ -38,7 +38,7 @@ class Torre:
             self.palito3 <=blz
             self.palito3 <=blr
 
-        #movimento das bolas
+        #movimento das bolas de volta a origem, no primeiro palito
         def move(ev):
             self.destino <= bl
         def movea(ev):
